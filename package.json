@@ -1,12 +1,21 @@
 {
-  "name": "yourbot",
+  "name": "MAHASONA-MD",
   "version": "1.0.0",
-  "description": "A WhatsApp bot created using Node.js",
+  "description": "*⛩️ 𝘾𝙊𝙉𝙉𝙀𝘾𝙏 𝙏𝙊 MAHASONA-MD 𝘽𝙊𝙏 🚀*
+
+
+
+> *_How are you beautiful children? 🪻 Share this with your friends 🗿⛅_*
+> *_කොමද ලස්සන ලමයෝ 🪻 ඔයගෙ යලුවන්ටත් මෙක ගැන කියලා බොට්ව ෂෙයාර් කරන්න 🗿⛅_*
+
+*Owner number-0768073555*
+
+> *𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 MAHASONA* A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
+    "start": "pm2 start index.js --deep-monitoring --attach --name MAHASONA-MD",
     "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "restart": "pm2 restart MAHASONA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
