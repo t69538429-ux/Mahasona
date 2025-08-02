@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("Connecting *MAHASONA-MD* bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -67,11 +67,20 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('Bot connected to whatsapp ✅')
+console.log('Bot connected to MAHASONA-MD✅')
 
-let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `𝘾𝙊𝙉𝙉𝙀𝘾𝙏ED 𝙏𝙊 MAHASONA-MD 𝘽𝙊𝙏 🚀*
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+
+
+> *_How are you beautiful children? 🪻 Share this with your friends 🗿⛅_*
+> *_කොමද ලස්සන ලමයෝ 🪻 ඔයගෙ යලුවන්ටත් මෙක ගැන කියලා බොට්ව ෂෙයාර් කරන්න 🗿⛅_*
+
+*Owner number-0768073555*
+
+> *𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 MAHASONA* ✅\n\nPREFIX: ${prefix}`;
+
+conn.sendMessage(ownerNumber +94768073555 "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
 }
 })
@@ -168,7 +177,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, bot started✅");
+res.send("hey, MAHASONA fallowing started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
